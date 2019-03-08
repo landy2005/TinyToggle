@@ -1,0 +1,30 @@
+{
+  "name": "TinyToggle",
+  "description": "TinyToggle is jQuery plugin to create a flexible and modern checkbox input",
+  "version": "1.3.0",
+  "main": "src/tinytoggle/js/tiny-toggle.js",
+  "keywords": [
+    "bootstrap",
+    "toggle",
+    "bootstrap-toggle",
+    "tinytoggle",
+    "switch",
+    "bootstrap-switch"
+  ],
+  "homepage": "http://tinytoggle.simonerighi.net/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnomisTheArtist/TinyToggle.git"
+  },
+  "license": "MIT",
+  "author": "Simone Righi <simone.righi@icloud.com>",
+  "bugs": {
+    "url": "https://github.com/EnomisTheArtist/TinyToggle/issues"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
+}
