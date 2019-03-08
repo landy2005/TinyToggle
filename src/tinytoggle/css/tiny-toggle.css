@@ -63,7 +63,14 @@
 
 .tt {
 	display: inline-block;
+  vertical-align: middle;
 	/*line-height: 1em;*/
+}
+/* FF only */
+@media screen and (min--moz-device-pixel-ratio:0) {
+  .tt {
+    vertical-align: baseline;
+  }
 }
 
 .tt-icon {
