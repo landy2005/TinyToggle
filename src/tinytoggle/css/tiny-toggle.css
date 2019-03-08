@@ -61,11 +61,13 @@
 .tt-star:before { content: "v"; }
 .tt-like:before { content: "x"; }
 
-.tt {  
-  line-height: 1em;
+.tt {
+	display: inline-block;
+	line-height: 1em;
 }
 
 .tt-icon {
+	vertical-align: middle;
 	cursor: pointer;
 }
 
